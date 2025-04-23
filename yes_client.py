@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = "sk-YiQeDTYNYA3JYA9sKiG3VZDu5d8tMjzD4gyB3woo2kPGNzUW"
+API_KEY = os.getenv("YESCALE_API_KEY")
 
 YESCALE_CHAT_URL = "https://api.yescale.io/v1/chat/completions"
 
