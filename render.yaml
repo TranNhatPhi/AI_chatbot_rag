@@ -6,7 +6,7 @@ services:
     startCommand: "python serve.py"
     envVars:
       - key: OPENAI_API_KEY
-        value: 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
+        value: ${OPENAI_API_KEY}
       - key: YESCALE_API_KEY
-        value: sk-YiQeDTYNYA3JYA9sKiG3VZDu5d8tMjzD4gyB3woo2kPGNzUW
+        value: ${YESCALE_API_KEY}
     plan: free
